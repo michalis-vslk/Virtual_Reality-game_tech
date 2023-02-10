@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 23
-  productGUID: 00000000000000000000000000000000
+  productGUID: 49a453abc2e71a54592ff66fc127ba50
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -156,7 +156,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.unity3d.vikingVillageURP
-    Standalone: com.UnityTechnologies.VikingVillage
+    Standalone: com.DefaultCompany.Virtual-Reality
     iPhone: com.Company.ProductName
     tvOS: com.Company.ProductName
   buildNumber:
@@ -693,14 +693,14 @@ PlayerSettings:
     Nintendo Switch: UNITY_POST_PROCESSING_STACK_V2
     PS4: UNITY_POST_PROCESSING_STACK_V2
     Stadia: UNITY_POST_PROCESSING_STACK_V2
-    Standalone: CROSS_PLATFORM_INPUT;UNITY_POST_PROCESSING_STACK_V2
+    Standalone: CROSS_PLATFORM_INPUT;UNITY_POST_PROCESSING_STACK_V2;STARTER_ASSETS_PACKAGES_CHECKED
     WebGL: UNITY_POST_PROCESSING_STACK_V2
     XboxOne: UNITY_POST_PROCESSING_STACK_V2
     iPhone: CROSS_PLATFORM_INPUT;MOBILE_INPUT
     tvOS: UNITY_POST_PROCESSING_STACK_V2
   additionalCompilerArguments: {}
   platformArchitecture:
-    iPhone: 2
+    iPhone: 1
   scriptingBackend:
     WP8: 2
     WebGL: 1
@@ -798,7 +798,7 @@ PlayerSettings:
     m_VersionCode: 1
     m_VersionName: 
   apiCompatibilityLevel: 6
-  activeInputHandler: 0
+  activeInputHandler: 2
   windowsGamepadBackendHint: 0
   cloudProjectId: 
   framebufferDepthMemorylessMode: 0
