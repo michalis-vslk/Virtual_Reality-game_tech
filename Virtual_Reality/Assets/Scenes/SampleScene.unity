@@ -285,7 +285,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: -150}
-  m_SizeDelta: {x: 400, y: 200}
+  m_SizeDelta: {x: 600, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &33619086
 MonoBehaviour:
@@ -316,7 +316,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4293125605
   m_fontColor: {r: 0.89617103, g: 0.8962264, b: 0.89199895, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -2239,7 +2239,7 @@ GameObject:
   - component: {fileID: 692535289}
   - component: {fileID: 692535288}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: The Village
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2275,8 +2275,9 @@ MonoBehaviour:
   onPlayerTrigger:
     m_PersistentCalls:
       m_Calls: []
-  bg: {fileID: 0}
-  imgbg: {fileID: 0}
+  bg: {fileID: 33619084}
+  sender: {fileID: 692535286}
+  imgbg: {fileID: 1531520395}
 --- !u!54 &692535289
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4081,7 +4082,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 420}
-  m_SizeDelta: {x: 380, y: 135}
+  m_SizeDelta: {x: 600, y: 135}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1531520395
 MonoBehaviour:

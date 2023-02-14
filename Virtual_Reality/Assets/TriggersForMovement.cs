@@ -7,13 +7,12 @@ using UnityEngine.UI;
 public class TriggersForMovement : MonoBehaviour
 {
     [SerializeField] UnityEvent onPlayerTrigger;
-    public GameObject bg;
+    public GameObject bg, sender;
     public Image imgbg;
     // Start is called before the first frame update
     void Start()
     {
-        bg = GameObject.Find("/Canvas/TextBG");
-        imgbg = bg.GetComponent<Image>();
+
     }
 
     // Update is called once per frame
@@ -26,7 +25,7 @@ public class TriggersForMovement : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            UIAreaTitle.Instance.ShowMessage("The Village");
+            UIAreaTitle.Instance.ShowMessage(sender.name);
             imgbg.color = new Color32(10, 10, 10, 240);
 
             StartCoroutine(passiveMe(5));
