@@ -4524,6 +4524,7 @@ Transform:
   m_Children:
   - {fileID: 1914681864}
   - {fileID: 1554165132}
+  - {fileID: 1800481455}
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5454,6 +5455,75 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+--- !u!1001 &1561728959
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1215601270}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: c5e2048eef0ea494b8719edf376f9e97,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c5e2048eef0ea494b8719edf376f9e97,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -60.34
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c5e2048eef0ea494b8719edf376f9e97,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -8.929657
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c5e2048eef0ea494b8719edf376f9e97,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -12.837097
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c5e2048eef0ea494b8719edf376f9e97,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c5e2048eef0ea494b8719edf376f9e97,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c5e2048eef0ea494b8719edf376f9e97,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c5e2048eef0ea494b8719edf376f9e97,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c5e2048eef0ea494b8719edf376f9e97,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c5e2048eef0ea494b8719edf376f9e97,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c5e2048eef0ea494b8719edf376f9e97,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c5e2048eef0ea494b8719edf376f9e97,
+        type: 3}
+      propertyPath: m_Name
+      value: Paladin J Nordstrom@Idle
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c5e2048eef0ea494b8719edf376f9e97, type: 3}
 --- !u!1001 &1564399865
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6419,6 +6489,38 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1793664388}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1800481454 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c5e2048eef0ea494b8719edf376f9e97,
+    type: 3}
+  m_PrefabInstance: {fileID: 1561728959}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1800481455 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c5e2048eef0ea494b8719edf376f9e97,
+    type: 3}
+  m_PrefabInstance: {fileID: 1561728959}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1800481456
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1800481454}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e5fe2f47ba37a2044b74ab77db408110, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1001 &1817280158
 PrefabInstance:
   m_ObjectHideFlags: 0
