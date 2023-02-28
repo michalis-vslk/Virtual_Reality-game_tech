@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 23
-  productGUID: 49a453abc2e71a54592ff66fc127ba50
+  productGUID: ace6dd9058bc8e04aa7b5607587bdab8
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -156,7 +156,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.unity3d.vikingVillageURP
-    Standalone: com.DefaultCompany.Virtual-Reality
+    Standalone: com.UnityTechnologies.VikingVillage
     iPhone: com.Company.ProductName
     tvOS: com.Company.ProductName
   buildNumber:
