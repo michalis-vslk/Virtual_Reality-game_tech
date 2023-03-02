@@ -21,12 +21,11 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: M Conifer Bark Array BODT
-  m_Shader: {fileID: -6465566751694194690, guid: 9920c1f1781549a46ba081a2a15a16ec,
-    type: 3}
-  m_ValidKeywords:
+  m_Shader: {fileID: 4800000, guid: 5ec81c81908db34429b4f6ddecadd3bd, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords:
   - BACKFACE_NORMAL_MODE_MIRROR
-  - _WINDQUALITY_BEST
-  m_InvalidKeywords: []
+  - _WINDQUALITY_NONE
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
@@ -178,7 +177,7 @@ Material:
     - _AdvancedEdgeBending: {r: 0.1, g: 5, b: 0, a: 0}
     - _AverageCol: {r: 1, g: 1, b: 1, a: 0.5}
     - _BaseWindMultipliers: {r: 0.6, g: 1, b: 1, a: 0}
-    - _Color: {r: 1, g: 0, b: 0, a: 1}
+    - _Color: {r: 0.3018868, g: 0.10448257, b: 0.026771078, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _HueVariation: {r: 0, g: 0.9, b: 0.8255172, a: 0.1}
     - _HueVariationColor: {r: 1, g: 0.5, b: 0, a: 0.1}
