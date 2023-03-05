@@ -25,7 +25,7 @@ public class PauseMenu : MonoBehaviour
     {
         // When Escape button pressed, toggle between Pause and Unpause (Resume)
 
-        if (Input.GetKeyUp(KeyCode.Escape))
+        if (Input.GetKeyUp(KeyCode.P))
 
         {
 
