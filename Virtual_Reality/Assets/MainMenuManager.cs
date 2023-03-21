@@ -19,6 +19,7 @@ public class MainMenuManager : MonoBehaviour
     {
         blocker.SetActive(true);
         SceneManager.LoadSceneAsync("SampleScene");
+        Cursor.visible = false;
         //blocker.SetActive(false);
     }
 
